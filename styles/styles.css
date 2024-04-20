@@ -1,3 +1,4 @@
+/* Сброс стилей по умолчанию */
 * {
     margin: 0;
     padding: 0;
@@ -33,10 +34,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
-    padding: 20px;
-}
-
 footer {
     background-color: #333;
     color: #fff;
@@ -44,14 +41,33 @@ footer {
     padding: 10px 0;
 }
 
-/* Стилизация отдельных разделов */
-.featured-products,
-.shop-categories,
-.best-sellers {
+.featured-products {
     background-color: #f9f9f9;
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
-h2 {
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
     margin-bottom: 10px;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.product-price {
+    color: #888;
 }
