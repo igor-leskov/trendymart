@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: CustomFont, Arial, sans-serif; /* Применение шрифта ко всему тексту в body */
+    font-family: CustomFont; 
 }
 
 header {
