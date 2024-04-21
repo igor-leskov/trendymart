@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Bankir-Retro; 
+    src: url('styles/fonts/Bankir-Retro.ttf') format('truetype'); 
+}
+
 body {
     font-family: Arial, sans-serif;
 }
