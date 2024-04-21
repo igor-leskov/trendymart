@@ -54,7 +54,7 @@ footer {
 }
 
 .featured-products {
-    background-color: #fff;
+    background-color: #c18954;
     padding: 20px;
 }
 
@@ -72,6 +72,7 @@ footer {
 
 .featured-products h2 {
     margin-top: 20px;
+    color: #9a2a2a;
 }
 
 .product img {
@@ -88,19 +89,21 @@ footer {
 
 .product-name {
     font-weight: bold;
+    color: #9a2a2a;
 }
 
 .product-price {
-    color: #888;
+    color: #2c5500;
 }
 
 .best-sellers {
-    background-color: #fff;
+    background-color: #c18954;
     padding: 20px;
 }
 
 .best-sellers h2 {
     margin-top: 20px;
+    color: #9a2a2a;
 }
 
 .best-sellers .product-list {
@@ -128,17 +131,18 @@ footer {
 }
 
 a {
-    color: white;
+    color: #9a2a2a;
     text-decoration: none;
 }
 
 .shop-categories {
-    background-color: #f9f9f9;
+    background-color: #985e28;
     padding: 20px;
 }
 
 .shop-categories h2 {
     margin-top: 20px;
+    color: #9a2a2a;
 }
 
 .category-list {
