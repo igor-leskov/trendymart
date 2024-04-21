@@ -66,6 +66,11 @@ footer {
     height: 230px;
     margin-bottom: 10px;
     margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product img:hover {
+    transform: scale(0.9);
 }
 
 .product-name {
