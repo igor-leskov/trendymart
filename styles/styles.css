@@ -43,7 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #9a2a2a;
+    color: #6f3612;
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ footer {
 
 .featured-products h2 {
     margin-top: 20px;
-    color: #9a2a2a;
+    color: #6f3612;
 }
 
 .product img {
@@ -102,7 +102,7 @@ footer {
 }
 
 .best-sellers {
-    background-color: #c18954;
+    background-color: #6f3612;
     padding: 20px;
 }
 
@@ -147,7 +147,7 @@ a {
 
 .shop-categories h2 {
     margin-top: 20px;
-    color: #9a2a2a;
+    color: #6f3612;
 }
 
 .category-list {
