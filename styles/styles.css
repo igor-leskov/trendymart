@@ -80,3 +80,36 @@ footer {
 .product-price {
     color: #888;
 }
+
+.best-sellers {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.best-sellers h2 {
+    margin-top: 20px;
+}
+
+.best-sellers .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.best-sellers .product {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.best-sellers .product:last-child {
+    margin-right: 0;
+}
+
+.best-sellers .product img {
+    width: 184px;
+    height: 230px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
