@@ -118,3 +118,34 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.shop-categories {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.shop-categories h2 {
+    margin-top: 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.category img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.category-name {
+    font-weight: bold;
+}
+
