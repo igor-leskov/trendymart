@@ -17,6 +17,12 @@ header {
     border-bottom-right-radius: 20px;
 }
 
+header img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 header h1 {
     margin-bottom: 10px;
 }
