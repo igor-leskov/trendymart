@@ -5,8 +5,12 @@
 }
 
 @font-face {
-    font-family: Bankir-Retro; 
+    font-family: CustomFont; 
     src: url('styles/fonts/Bankir-Retro.ttf') format('truetype'); 
+}
+
+body {
+    font-family: CustomFont, Arial, sans-serif; /* Применение шрифта ко всему тексту в body */
 }
 
 header {
