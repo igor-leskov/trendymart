@@ -9,10 +9,6 @@
     src: url('styles/fonts/Bankir-Retro.ttf') format('truetype'); 
 }
 
-body {
-    font-family: Bankir-Retro; 
-}
-
 header {
     background-color: #3557b5;
     color: #fff;
