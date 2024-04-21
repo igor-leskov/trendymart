@@ -102,13 +102,13 @@ footer {
 }
 
 .best-sellers {
-    background-color: #6f3612;
+    background-color: #c18954;
     padding: 20px;
 }
 
 .best-sellers h2 {
     margin-top: 20px;
-    color: #9a2a2a;
+    color: #6f3612;
 }
 
 .best-sellers .product-list {
