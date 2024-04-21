@@ -9,9 +9,18 @@
     src: url('fonts/Bankir-Retro.ttf') format('truetype'); 
 }
 
+@font-face {
+    font-family: CustomFontParagraph;
+    src: url('fonts/Beast-SpreadTall.ttf') format('truetype'); 
+}
+
 body {
     font-family: CustomFont; 
     background-color: #c18954;
+}
+
+p {
+    font-family: CustomFontParagraph;
 }
 
 header {
