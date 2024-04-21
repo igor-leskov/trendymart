@@ -96,6 +96,10 @@ footer {
     color: #2c5500;
 }
 
+.product-availability {
+    color: #c18954;
+}
+
 .best-sellers {
     background-color: #c18954;
     padding: 20px;
@@ -136,7 +140,7 @@ a {
 }
 
 .shop-categories {
-    background-color: #985e28;
+    background-color: #b97b41;
     padding: 20px;
 }
 
