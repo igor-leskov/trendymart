@@ -58,10 +58,15 @@ footer {
     text-align: center;
 }
 
+.featured-products h2 {
+    margin-top: 20px;
+}
+
 .product img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 250px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .product-name {
