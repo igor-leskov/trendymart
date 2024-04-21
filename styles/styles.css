@@ -13,8 +13,8 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 header h1 {
