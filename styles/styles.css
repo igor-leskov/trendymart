@@ -14,8 +14,8 @@ body {
 }
 
 header {
-    background-color: #985e28;
-    color: #fff;
+    background-color: #b97b41;
+    color: #9a2a2a;
     padding: 20px;
     text-align: center;
     border-bottom-left-radius: 20px;
@@ -47,8 +47,8 @@ nav ul li a {
 }
 
 footer {
-    background-color: #985e28;
-    color: #fff;
+    background-color: #b97b41;
+    color: #9d2f2d;
     text-align: center;
     padding: 10px 0;
 }
@@ -171,7 +171,8 @@ a {
 .category img:hover {
     transform: scale(0.9);
 }
+
 .category-name {
     font-weight: bold;
+    color: #9a2a2a;
 }
-
