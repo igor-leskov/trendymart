@@ -22,17 +22,6 @@ header {
     border-bottom-right-radius: 20px;
 }
 
-header::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 20px; /* ширина угла */
-    height: 20px; /* высота угла */
-    background-color: #333;
-    border-bottom-left-radius: 10px; /* радиус закругления для левого нижнего угла */
-}
-
 header img {
     width: 200px;
     height: auto;
