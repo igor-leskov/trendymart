@@ -78,6 +78,13 @@ nav ul li a:hover {
     width: 30%;
     max-width: 300px;
     height: auto;
+    margin-top: 10px;
+    border: 3px solid #6f3612;
+    transition: transform 0.3s ease; 
+}
+
+.store-images img:hover {
+    transform: scale(1.1); 
 }
 
 a {
