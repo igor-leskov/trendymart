@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: CustomFont; 
+    src: url('fonts/Bankir-Retro.ttf') format('truetype'); 
+}
+
+body {
+    font-family: CustomFont; 
+    background-color: #c18954;
+}
+
+header {
+    background-color: #b97b41;
+    color: #9a2a2a;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header img {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #6f3612;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #9a2a2a; 
+    text-decoration: underline; 
+}
+
+a {
+    color: #6f3612;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+    color: #9a2a2a; 
+    text-decoration: underline; 
+}
+
+footer {
+    background-color: #b97b41;
+    color: #6f3612;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.error {
+    background-color: #c18954;
+    padding: 20px;
+}
+
+.error h1 {
+    margin-top: 20px;
+    color: #6f3612;
+}
+
+.error p {
+    margin-bottom: 20px;
+    color: #6f3612;
+}
+
+.error a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.error a:hover {
+    text-decoration: underline;
+}
