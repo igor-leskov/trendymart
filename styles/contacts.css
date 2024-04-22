@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: CustomFont; 
+    src: url('fonts/Bankir-Retro.ttf') format('truetype'); 
+}
+
 body {
     font-family: CustomFont; 
     background-color: #c18954;
