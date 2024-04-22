@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: CustomFont; 
+    src: url('fonts/Bankir-Retro.ttf') format('truetype'); 
+}
+
 body {
     font-family: CustomFont; 
     background-color: #c18954;
@@ -76,6 +81,9 @@ nav ul li a:hover {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #b97b41;
     color: #6f3612;
     text-align: center;
