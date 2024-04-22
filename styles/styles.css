@@ -144,6 +144,12 @@ footer {
 a {
     color: #6f3612;
     text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+    color: #9a2a2a; 
+    text-decoration: underline; 
 }
 
 .shop-categories {
